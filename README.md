@@ -19,3 +19,9 @@ E0 = bookmark or unvisited lead. E1 = directly observed dated example. E2 = recu
 
 ## Status
 This is an initial GitHub publication of the v3 methodology. Source URLs require individual live verification; agent integration and end-to-end benchmarks remain outstanding. Do not claim those are complete.
+
+## Global use and verification
+
+See [installation](docs/installation.md) for the native user-scoped Codex link and prerequisites. Resolve the canonical library through the discovered skill path so it works from unrelated projects. The installer preserves instructions and rejects conflicts. The [router](routing/README.md) covers product/design/growth tasks with bounded research and explicit uncertainty. See [persistent findings](docs/governance.md) for indexed, source-traceable learning without another service.
+
+Run `python scripts/validate.py` and `python -m unittest discover -s tests -v`. Existing benchmark prompts specify manual behaviors; deterministic tests and HTTP reachability do not establish that all agents, browsers or future sessions have passed them. Dated integration evidence belongs in research findings and verification reports; the initial-publication status above describes the original baseline.

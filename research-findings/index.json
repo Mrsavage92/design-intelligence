@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "research-20261025-saas-pricing-integration",
+    "path": "research-findings/20261025-saas-pricing-integration.md",
+    "project": "design-intelligence-integration-test",
+    "reviewed_utc": "2026-10-25",
+    "evidence_level": "E1",
+    "source_urls": ["https://linear.app/pricing", "https://slack.com/pricing", "https://www.notion.com/pricing"]
+  }
+]
