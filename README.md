@@ -18,4 +18,10 @@ E0 = bookmark or unvisited lead. E1 = directly observed dated example. E2 = recu
 `references/catalog.json`: 30 discovery sources. `routing/routes.json`: specialist router. `docs/`: methodology, governance, evaluation and measurement. `.agents/skills/` and `.claude/skills/`: agent skills. `scripts/`: local tools. `tests/`: acceptance tests.
 
 ## Status
-This is an initial GitHub publication of the v3 methodology. Source URLs require individual live verification; agent integration and end-to-end benchmarks remain outstanding. Do not claim those are complete.
+The [2026-10-25 verification record](docs/verification-2026-10-25.md) documents a working global Codex installation on Windows, native discovery across fresh host processes, automated regression checks and a live first-party pricing research example. This is bounded verification: Claude execution, non-Windows installation and the full manual behavior suite remain unverified. Catalogue entries remain discovery leads except where a dated content check is explicitly recorded. Never infer conversion performance from this status.
+
+## Global use and verification
+
+See [installation](docs/installation.md) for the native user-scoped Codex link and prerequisites. Resolve the canonical library through the discovered skill path so it works from unrelated projects. The installer preserves instructions and rejects conflicts. The [router](routing/README.md) covers product/design/growth tasks with bounded research and explicit uncertainty. See [persistent findings](docs/governance.md) for indexed, source-traceable learning without another service.
+
+Run `python scripts/validate.py` and `python -m unittest discover -s tests -v`. Existing benchmark prompts specify manual behaviors; deterministic tests and HTTP reachability do not establish that all agents, browsers or future sessions have passed them. Dated integration evidence belongs in research findings and verification reports.

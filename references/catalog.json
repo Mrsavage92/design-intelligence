@@ -241,13 +241,13 @@
   },
   {
     "id": "source-25",
-    "name": "ProfitWell",
-    "url": "https://www.paddle.com/profitwell",
+    "name": "Paddle pricing strategy guide",
+    "url": "https://www.paddle.com/resources/pricing-strategy",
     "category": "pricing",
-    "status": "unverified",
-    "last_checked_utc": null,
-    "evidence_level": "E0",
-    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+    "status": "observed-content",
+    "last_checked_utc": "2026-10-25",
+    "evidence_level": "E1",
+    "note": "Original /profitwell URL returned a content 404. Replacement fetched live via Firecrawl maxAge 0 on 2026-10-25 (scrape 01a171ce-ffc3-71ca-bc3c-3412654e1c8f, HTTP 200). Vendor-authored pricing advice; E1 content inspection is not independent outcome evidence or conversion validation."
   },
   {
     "id": "source-26",

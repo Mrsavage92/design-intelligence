@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "pattern-self-service-with-enterprise-sales",
+    "path": "patterns/self-service-with-enterprise-sales.md",
+    "reviewed_utc": "2026-10-25",
+    "evidence_level": "E2"
+  }
+]

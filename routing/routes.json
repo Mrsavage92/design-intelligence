@@ -54,6 +54,14 @@
     "product",
     "ux-research"
   ],
+  "accessibility": ["accessibility", "ux-research", "components"],
+  "design-systems": ["design-systems", "components", "accessibility"],
+  "components": ["components", "design-systems", "accessibility"],
+  "copywriting": ["copywriting", "ux-research", "trust"],
+  "analytics": ["analytics", "experimentation", "product"],
+  "retention": ["product", "analytics", "onboarding"],
+  "product-design": ["ux-research", "app-flows", "accessibility"],
+  "performance": ["performance", "accessibility", "components"],
   "presentation": [
     "presentation",
     "copywriting"
