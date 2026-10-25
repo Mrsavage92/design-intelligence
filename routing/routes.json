@@ -1,0 +1,61 @@
+{
+  "landing-page": [
+    "landing",
+    "hero",
+    "copywriting",
+    "trust",
+    "accessibility"
+  ],
+  "pricing": [
+    "pricing",
+    "trust",
+    "ux-research",
+    "analytics"
+  ],
+  "onboarding": [
+    "onboarding",
+    "app-flows",
+    "ux-research",
+    "analytics",
+    "accessibility"
+  ],
+  "dashboard": [
+    "app-flows",
+    "components",
+    "design-systems",
+    "accessibility"
+  ],
+  "navigation": [
+    "navigation",
+    "ux-research",
+    "accessibility"
+  ],
+  "email": [
+    "email",
+    "copywriting",
+    "accessibility"
+  ],
+  "advertising": [
+    "advertising",
+    "social",
+    "copywriting"
+  ],
+  "social-preview": [
+    "social-preview",
+    "social"
+  ],
+  "experimentation": [
+    "analytics",
+    "experimentation",
+    "ux-research"
+  ],
+  "competitive-review": [
+    "competitive",
+    "product",
+    "ux-research"
+  ],
+  "presentation": [
+    "presentation",
+    "copywriting"
+  ]
+}
