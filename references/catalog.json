@@ -1,0 +1,302 @@
+[
+  {
+    "id": "source-01",
+    "name": "Land-book",
+    "url": "https://land-book.com",
+    "category": "landing",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-02",
+    "name": "Supahero",
+    "url": "https://supahero.io",
+    "category": "hero",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-03",
+    "name": "Pricing Pages",
+    "url": "https://pricingpages.design",
+    "category": "pricing",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-04",
+    "name": "Social Proof Examples",
+    "url": "https://socialproofexamples.com",
+    "category": "trust",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-05",
+    "name": "Really Good Emails",
+    "url": "https://reallygoodemails.com",
+    "category": "email",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-06",
+    "name": "Deck Gallery",
+    "url": "https://deck.gallery",
+    "category": "presentation",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-07",
+    "name": "Posts.design",
+    "url": "https://posts.design",
+    "category": "social",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-08",
+    "name": "Adfolio",
+    "url": "https://adfolio.design",
+    "category": "advertising",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-09",
+    "name": "Navbar Gallery",
+    "url": "https://navbar.gallery",
+    "category": "navigation",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-10",
+    "name": "OG Image Gallery",
+    "url": "https://ogimage.gallery",
+    "category": "social-preview",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-11",
+    "name": "Mobbin",
+    "url": "https://mobbin.com",
+    "category": "app-flows",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-12",
+    "name": "Baymard Institute",
+    "url": "https://baymard.com",
+    "category": "ux-research",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-13",
+    "name": "Storybook",
+    "url": "https://storybook.js.org",
+    "category": "components",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-14",
+    "name": "PostHog",
+    "url": "https://posthog.com",
+    "category": "analytics",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-15",
+    "name": "W3C WAI",
+    "url": "https://www.w3.org/WAI/",
+    "category": "accessibility",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-16",
+    "name": "Nielsen Norman Group",
+    "url": "https://www.nngroup.com",
+    "category": "ux-research",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-17",
+    "name": "Radix UI",
+    "url": "https://www.radix-ui.com",
+    "category": "components",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-18",
+    "name": "shadcn/ui",
+    "url": "https://ui.shadcn.com",
+    "category": "components",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-19",
+    "name": "Material Design",
+    "url": "https://m3.material.io",
+    "category": "design-systems",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-20",
+    "name": "Apple HIG",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/",
+    "category": "design-systems",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-21",
+    "name": "WebAIM",
+    "url": "https://webaim.org",
+    "category": "accessibility",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-22",
+    "name": "web.dev",
+    "url": "https://web.dev",
+    "category": "performance",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-23",
+    "name": "Growth.Design",
+    "url": "https://growth.design",
+    "category": "experimentation",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-24",
+    "name": "Marketing Examples",
+    "url": "https://marketingexamples.com",
+    "category": "copywriting",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-25",
+    "name": "ProfitWell",
+    "url": "https://www.paddle.com/profitwell",
+    "category": "pricing",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-26",
+    "name": "Userpilot",
+    "url": "https://userpilot.com",
+    "category": "onboarding",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-27",
+    "name": "Lenny's Newsletter",
+    "url": "https://www.lennysnewsletter.com",
+    "category": "product",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-28",
+    "name": "Similarweb",
+    "url": "https://www.similarweb.com",
+    "category": "competitive",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-29",
+    "name": "Amplitude",
+    "url": "https://amplitude.com",
+    "category": "analytics",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  },
+  {
+    "id": "source-30",
+    "name": "IBM Carbon",
+    "url": "https://carbondesignsystem.com",
+    "category": "design-systems",
+    "status": "unverified",
+    "last_checked_utc": null,
+    "evidence_level": "E0",
+    "note": "Discovery lead only. Check exact live examples and current access before relying on it."
+  }
+]
