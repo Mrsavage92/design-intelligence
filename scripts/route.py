@@ -42,6 +42,8 @@ def route_task(task, root=ROOT):
     lightweight = bool(re.search(r"\b(change|replace|fix|correct)\b", text)) and bool(
         re.search(r"\b(typo|wording|label|cta)\b", text)
     ) and not re.search(r"\b(research|redesign|compare|test|experiment)\b", text)
+    if any(name in {"onboarding", "experimentation", "analytics", "retention", "accessibility"} for name, _ in matches):
+        lightweight = False  # A label mention must not suppress substantive evidence needs.
     selected = [] if lightweight else [name for name, _ in matches[:3]]
     categories = []
     for name in selected:

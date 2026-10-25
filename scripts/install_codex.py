@@ -15,6 +15,11 @@ def install(destination, *, check=False, home=None):
     home = Path.home() if home is None else Path(home)
     source = ROOT / ".agents/skills" / NAME
     destination = Path(destination).absolute()
+    required = [source / "SKILL.md", source / "scripts/context.py"] + [
+        ROOT / name for name in ("README.md", "docs/research-protocol.md", "references/catalog.json", "routing/routes.json")
+    ]
+    if not all(path.is_file() for path in required):
+        raise ValueError("The canonical checkout is incomplete. Nothing was installed.")
     codex_home = Path(os.environ.get("CODEX_HOME", str(home / ".codex")))
     candidates = {home / ".agents/skills" / NAME, home / ".codex/skills" / NAME, codex_home / "skills" / NAME}
     for candidate in candidates:

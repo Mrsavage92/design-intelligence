@@ -1,5 +1,4 @@
 """Deterministic regression checks; agent behavior and live browsing remain separate."""
-import importlib.util
 import json
 import os
 from pathlib import Path
@@ -53,6 +52,9 @@ class RoutingTests(unittest.TestCase):
         result = route_task("Change CTA wording")
         self.assertEqual(result["research_depth"], "lightweight")
         self.assertEqual(result["suggested_sources"], [])
+        substantive = route_task("Fix retention messaging and CTA labels after conversion drops")
+        self.assertEqual(substantive["research_depth"], "focused")
+        self.assertIn("retention", substantive["selected_routes"])
 
     def test_existing_manual_benchmarks_remain_distinct(self):
         cases = json.loads((ROOT / "tests/benchmark-cases.json").read_text(encoding="utf-8"))
@@ -116,6 +118,26 @@ class ValidationTests(unittest.TestCase):
 
 
 class InstallationTests(unittest.TestCase):
+    def test_incomplete_checkout_creates_no_link(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            home = Path(temporary)
+            target = home / ".agents/skills/design-research"
+            with patch("install_codex.ROOT", home / "missing-checkout"), self.assertRaises(ValueError):
+                install(target, home=home)
+            self.assertFalse(os.path.lexists(target))
+
+    @unittest.skipUnless(os.name == "nt", "Windows junction fallback")
+    def test_windows_junction_fallback(self):
+        with tempfile.TemporaryDirectory() as temporary, patch.dict(os.environ, {"CODEX_HOME": str(Path(temporary) / ".codex")}):
+            home = Path(temporary)
+            target = home / ".agents/skills/design-research"
+            error = OSError("Symlink privilege unavailable")
+            error.winerror = 1314
+            with patch.object(Path, "symlink_to", side_effect=error):
+                install(target, home=home)
+            self.assertTrue(target.samefile(ROOT / ".agents/skills/design-research"))
+            target.rmdir()  # Remove only the temporary junction, never its target.
+
     def test_install_idempotency_and_preservation(self):
         with tempfile.TemporaryDirectory() as temporary, patch.dict(os.environ, {"CODEX_HOME": str(Path(temporary) / ".codex")}):
             home = Path(temporary)
